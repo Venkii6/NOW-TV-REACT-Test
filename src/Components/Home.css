@@ -1,0 +1,18 @@
+.homeWrapper {
+  margin-left: 10px;
+}
+
+.homeWrapper figure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.homeWrapper-heading {
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.now-logo {
+  width: 100px;
+  height: 24px;
+}
