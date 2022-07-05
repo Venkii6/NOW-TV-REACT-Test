@@ -81,4 +81,8 @@
   .message-message span {
     -webkit-line-clamp: 4;
   }
+
+  ul {
+    padding: 0px;
+  }
 }

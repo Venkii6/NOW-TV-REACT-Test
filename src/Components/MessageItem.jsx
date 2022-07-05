@@ -35,7 +35,11 @@ const MessageItem = ({ userId, message, timestamp, email, avatar, name }) => {
           )}
           <time className="message-time">{timestamp}</time>
           {name.length > 0 && (
-            <button onClick={TakeToUserMessages} className="message-username">
+            <button
+              type="button"
+              aria-label={name}
+              onClick={TakeToUserMessages}
+              className="message-username">
               {name}
             </button>
           )}
