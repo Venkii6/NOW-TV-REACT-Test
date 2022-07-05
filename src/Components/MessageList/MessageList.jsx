@@ -1,6 +1,6 @@
 import React from 'react'
-import MessageItem from './MessageItem'
-import { formatDate } from '../utils/formatData'
+import MessageItem from '../MessageItem/MessageItem'
+import { formatDate } from '../../utils/formatData'
 
 const MessageList = ({ list }) => {
   return list

@@ -1,7 +1,8 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import MessageList from './MessageList'
+import MessageList from '../MessageList/MessageList'
+import './UserMessageList.css'
 
 const UserMessageList = () => {
   const { id } = useParams()
@@ -12,9 +13,9 @@ const UserMessageList = () => {
   }
 
   return (
-    <div>
+    <div className="user-message-list">
       {' '}
-      <MessageList list={filteredUserMessages()} show={false} />
+      <MessageList list={filteredUserMessages()} />
     </div>
   )
 }

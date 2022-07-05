@@ -34,7 +34,7 @@
   margin-left: 20px;
 }
 
-.message-message span {
+.message-message p {
   display: inline;
   -webkit-line-clamp: 2;
   text-overflow: ellipsis;
@@ -42,6 +42,8 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   word-wrap: break-word;
+  margin: 0;
+  padding: 0;
 }
 
 .message-time {
@@ -78,7 +80,7 @@
     margin-left: 0px;
   }
 
-  .message-message span {
+  .message-message p {
     -webkit-line-clamp: 4;
   }
 

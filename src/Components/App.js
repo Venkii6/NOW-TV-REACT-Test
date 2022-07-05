@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { MessageServices, MemberServices } from '../Services/AllServices'
-import Home from './Home'
+import Home from './Home/Home'
 import { Switch, Route } from 'react-router'
-import UserMessageList from './UserMessageList'
+import UserMessageList from './UserMessageList/UserMessageList'
 
 import { useDispatch, useSelector } from 'react-redux'
 import { defaultMember } from '../utils/defaultMember'

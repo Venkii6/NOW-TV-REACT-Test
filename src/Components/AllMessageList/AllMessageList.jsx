@@ -1,5 +1,5 @@
 import React from 'react'
-import MessageList from './MessageList'
+import MessageList from '../MessageList/MessageList'
 import { useSelector } from 'react-redux'
 
 const AllMessageList = () => {

@@ -27,7 +27,7 @@ const MessageItem = ({ userId, message, timestamp, email, avatar, name }) => {
           className="message-message"
           onMouseEnter={() => setHover(true)}
           onMouseLeave={() => setHover(false)}>
-          <span>{message ?? ''}</span>
+          <p>{message ?? ''}</p>
         </div>
         <div className="email-user-timereceived">
           {email.length > 0 && hover && (
