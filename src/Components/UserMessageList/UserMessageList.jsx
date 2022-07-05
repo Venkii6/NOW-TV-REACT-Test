@@ -13,9 +13,9 @@ const UserMessageList = () => {
   }
 
   return (
-    <div className="user-message-list">
+    <section className="user-message-list">
       <MessageList list={filteredUserMessages()} />
-    </div>
+    </section>
   )
 }
 
