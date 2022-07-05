@@ -1,0 +1,84 @@
+.message-data {
+  display: flex;
+  margin: 10px 0px;
+  border: solid 1px lightGrey;
+  min-height: 100px;
+}
+
+.message-avatar {
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.message-avatar img {
+  width: 100px;
+  height: 100px;
+}
+.message-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+  padding: 4px;
+}
+
+.message-username {
+  margin-left: 20px;
+  height: 30px;
+  width: 200px;
+  border: 0.25px solid lightblue;
+  color: cornflowerblue;
+}
+
+.message-message {
+  margin-left: 20px;
+}
+
+.message-message span {
+  display: inline;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
+
+.message-time {
+  margin-left: 20px;
+  color: blue;
+}
+
+.message-email {
+  margin-left: 20px;
+  color: red;
+}
+
+.email-user-timereceived {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 769px) {
+  .email-user-timereceived {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .message-data {
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+  .message-username,
+  .message-message,
+  .message-email,
+  .message-time {
+    margin-left: 0px;
+  }
+
+  .message-message span {
+    -webkit-line-clamp: 4;
+  }
+}
