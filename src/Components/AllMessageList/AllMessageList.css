@@ -1,0 +1,10 @@
+.message-list {
+  padding: 0px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+  .message-list {
+    margin: 5px;
+  }
+}
